@@ -1,4 +1,8 @@
-
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.5;}
 body {
 	height: 100vh;
     display: flex;
@@ -6,9 +10,15 @@ body {
     justify-content: center;
     background: url('assets/freedom.jpg');
 	background-size: cover;}
-#text {text-transform:uppercase;
-font-family: "cyreal";
+.box {padding: 50px;
+    padding-top: 10px;}
+#text {
+    text-transform:uppercase;
+font-family: "Inconsolata";
 text-align: center;
-font-size: 25px;}
-.name {text-align: center;
-font-family: "Arial";}
+font-size: 40px;}
+.name {
+    text-align: center;
+font-family: 'Tangerine', cursive;
+font-style: italic;
+    font-size: 15px;}
