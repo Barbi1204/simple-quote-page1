@@ -1,0 +1,14 @@
+
+body {
+	height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('assets/freedom.jpg');
+	background-size: cover;}
+#text {text-transform:uppercase;
+font-family: "cyreal";
+text-align: center;
+font-size: 25px;}
+.name {text-align: center;
+font-family: "Arial";}
